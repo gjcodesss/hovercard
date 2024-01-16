@@ -1,0 +1,36 @@
+*{
+    background: lightblue;
+}
+.card{
+    width: 250px;
+    display: flex;
+    margin: 250px auto;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+
+}
+img:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+  opacity: 75%;
+}
+.card h3{
+    padding: 20px;
+    position: relative;
+    top: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+}
+.card:hover h3{
+    background: white;
+    transform: none;
+    transform: translateY(0px);
+}
+.card h3{
+    text-align: center;
+}
